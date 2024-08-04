@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#card{
+width: 30%;
+border: solid rgb(248, 116, 116);
+/* padding: 20px; */
+border-radius: 10px;
+margin: auto;
+}
+img{
+width: 100%;
+border-radius: 10px 10px 0px 0px;
+}
+.card{
+    padding: 10px
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 40%;
+    background: green;
+    color: white;
+}
+.hi{
+    display: flex;
+    justify-content: space-around;
+}

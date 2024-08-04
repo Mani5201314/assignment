@@ -1,0 +1,41 @@
+.todo-list {
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f900;
+  margin-top: 5%;
+  margin-left: 35%;
+  background: linear-gradient(red green blue pink);
+}
+
+.todo-list input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-list button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.todo-list button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.todo-list button:disabled:hover {
+  background-color: #ccc;
+}

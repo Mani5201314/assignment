@@ -1,0 +1,45 @@
+#day {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+
+#img1 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+#clear {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  border: none;
+}
+#clear:hover {
+  background-color: rgb(249, 214, 163);
+}
+#head {
+  text-align: center;
+  animation-name: mani;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes mani {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: black;
+  }
+  100% {
+    color: aqua;
+  }
+}
